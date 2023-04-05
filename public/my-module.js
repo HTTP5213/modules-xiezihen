@@ -1,5 +1,6 @@
-import { theShire, buckland } from "./another-module";
-var statement = () =>
+import { theShire, buckland } from './another-module';
+
+const statement = () =>
   `${theShire.name} was founded ${
     buckland.founding - theShire.founding
   } years before ${buckland.name}.`;
